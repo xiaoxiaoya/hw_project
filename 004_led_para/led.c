@@ -20,7 +20,7 @@ int led_on(int which)
 		*pGPFCON = 0x1000;
 	}
 	
-	/* …Ë÷√GPF4/5 ‰≥ˆ0 */
+	/* GPB5/6 */
 	*pGPFDAT = 0;
 
 	return 0;
