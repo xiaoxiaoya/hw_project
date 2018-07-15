@@ -14,8 +14,8 @@ _start:
  * CPBCON：0x56000010
  */
 	ldr r1, =0x56000010
-	ldr r0, =0x400	/* mov r0, #0x100 */
-	//ldr r0, =0x15400	/* mov r0, #0x100 */
+	//ldr r0, =0x400	/* mov r0, #0x100 */
+	ldr r0, =0x15400	/* mov r0, #0x100 */
 	str r0, [r1]
 
 
